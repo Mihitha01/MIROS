@@ -20,3 +20,15 @@
 2026-04-15 22:22:10 | INFO | CommandRegistry | Registered plugin: api
 2026-04-15 22:22:10 | INFO | CommandRegistry | Registered plugin: conversation
 2026-04-15 22:22:10 | INFO | MirosAssistantService | Intent classified | category=conversation action=chat confidence=0.35 domain=conversation
+2026-04-16 00:50:44 | INFO | CommandRegistry | Registered plugin: system
+2026-04-16 00:50:44 | INFO | CommandRegistry | Registered plugin: web
+2026-04-16 00:50:44 | INFO | CommandRegistry | Registered plugin: api
+2026-04-16 00:50:44 | INFO | CommandRegistry | Registered plugin: conversation
+2026-04-16 00:50:44 | INFO | MirosAssistantService | Intent classified | category=conversation action=chat confidence=0.35 domain=conversation
+2026-04-16 00:51:38 | INFO | CommandRegistry | Registered plugin: system
+2026-04-16 00:51:38 | INFO | CommandRegistry | Registered plugin: web
+2026-04-16 00:51:38 | INFO | CommandRegistry | Registered plugin: api
+2026-04-16 00:51:38 | INFO | CommandRegistry | Registered plugin: conversation
+2026-04-16 00:52:01 | INFO | MirosAssistantService | Intent classified | category=conversation action=chat confidence=0.35 domain=conversation
+2026-04-16 00:52:16 | INFO | MirosAssistantService | Intent classified | category=conversation action=chat confidence=0.35 domain=conversation
+2026-04-16 00:52:34 | INFO | MirosAssistantService | Intent classified | category=conversation action=chat confidence=0.35 domain=conversation
