@@ -1,0 +1,5 @@
+2026-04-15 19:25:59 | INFO | CommandRegistry | Registered plugin: system
+2026-04-15 19:25:59 | INFO | CommandRegistry | Registered plugin: web
+2026-04-15 19:25:59 | INFO | CommandRegistry | Registered plugin: api
+2026-04-15 19:25:59 | INFO | CommandRegistry | Registered plugin: conversation
+2026-04-15 19:25:59 | INFO | MirosAssistantService | Intent classified | category=web action=web_search confidence=0.91 domain=web
