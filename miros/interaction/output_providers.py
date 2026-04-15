@@ -32,7 +32,17 @@ class TTSOutputProvider(BaseOutputProvider):
     def __init__(self) -> None:
         self.logger = logging.getLogger(self.__class__.__name__)
         self.available = pyttsx3 is not None
-        self._engine = pyttsx3.init() if self.available else None
+        self._engine = None
+
+        if self.available:
+            try:
+                self._engine = pyttsx3.init()
+            except Exception as exc:
+                self.available = False
+                self.logger.warning(
+                    "TTS initialization failed; voice output disabled: %s",
+                    exc,
+                )
 
     def emit(self, message: str) -> None:
         if not self.available or self._engine is None:
@@ -49,7 +59,14 @@ class OutputManager:
         self.logger = logging.getLogger(self.__class__.__name__)
         self.console = ConsoleOutputProvider()
         self.enable_tts = enable_tts
-        self.tts = TTSOutputProvider() if enable_tts else None
+        self.tts = None
+
+        if enable_tts:
+            tts_provider = TTSOutputProvider()
+            if tts_provider.available:
+                self.tts = tts_provider
+            else:
+                self.enable_tts = False
 
     def respond(self, message: str) -> None:
         self.console.emit(message)

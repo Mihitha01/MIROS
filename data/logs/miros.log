@@ -3,3 +3,20 @@
 2026-04-15 19:25:59 | INFO | CommandRegistry | Registered plugin: api
 2026-04-15 19:25:59 | INFO | CommandRegistry | Registered plugin: conversation
 2026-04-15 19:25:59 | INFO | MirosAssistantService | Intent classified | category=web action=web_search confidence=0.91 domain=web
+2026-04-15 21:56:33 | INFO | comtypes.client._code_cache | Could not import comtypes.gen, trying to create it.
+2026-04-15 21:56:33 | INFO | comtypes.client._code_cache | Created comtypes.gen directory: 'C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\comtypes\gen'
+2026-04-15 21:56:33 | INFO | comtypes.client._code_cache | Writing __init__.py file: 'C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\comtypes\gen\__init__.py'
+2026-04-15 21:56:33 | INFO | comtypes.client._code_cache | Using writeable comtypes cache directory: 'C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\comtypes\gen'
+2026-04-15 22:22:09 | INFO | comtypes.client._code_cache | Imported existing <module 'comtypes.gen' from 'C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-04-15 22:22:09 | INFO | comtypes.client._code_cache | Using writeable comtypes cache directory: 'C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\site-packages\comtypes\gen'
+2026-04-15 22:22:09 | INFO | comtypes.client._generate | Could not import comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4: No module named 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4'
+2026-04-15 22:22:09 | INFO | comtypes.client._generate | # Generating comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4
+2026-04-15 22:22:09 | INFO | comtypes.client._generate | # Generating comtypes.gen.SpeechLib
+2026-04-15 22:22:09 | INFO | comtypes.client._generate | Could not import comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0: No module named 'comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0'
+2026-04-15 22:22:09 | INFO | comtypes.client._generate | # Generating comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0
+2026-04-15 22:22:09 | INFO | comtypes.client._generate | # Generating comtypes.gen.stdole
+2026-04-15 22:22:10 | INFO | CommandRegistry | Registered plugin: system
+2026-04-15 22:22:10 | INFO | CommandRegistry | Registered plugin: web
+2026-04-15 22:22:10 | INFO | CommandRegistry | Registered plugin: api
+2026-04-15 22:22:10 | INFO | CommandRegistry | Registered plugin: conversation
+2026-04-15 22:22:10 | INFO | MirosAssistantService | Intent classified | category=conversation action=chat confidence=0.35 domain=conversation
